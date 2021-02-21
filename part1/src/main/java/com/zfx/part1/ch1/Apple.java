@@ -20,6 +20,10 @@ public class Apple {
     private String color;
     private int weight;
 
+    public Apple(int weight) {
+        this.weight = weight;
+    }
+
     public static boolean isGreenApple(Apple apple) {
         return "green".equals(apple.getColor());
     }
